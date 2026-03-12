@@ -21,7 +21,7 @@ jobs:
         spec: gui.spec
         path: gui
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: config-tool
         path: gui/dist/windows/YuanCon-CFWConfig.exe
